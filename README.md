@@ -1,4 +1,6 @@
 # Catalogue
+## hw1 GCD of Big Integers
+Implement a (non-negative) BigInteger data structure to accompany with the two algorithms
 
 
 ## hw2 Playing with Big Data
