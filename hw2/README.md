@@ -3,15 +3,19 @@
 You are asked to design and implement a data structure to store a very big data set of KDDCup 2012
 Track 2. KDDCup is an international data mining competition, and our dear NTU team won the
 champion of track 2 that year. There are 149639105 lines in the file
+
 ``
 /tmp2/KDDCUP2012/track2/kddcup2012track2.txt,
 ``
+
 which is placed on 217 workstations from linux1 to linux8. The detailed description of the data set is
 here: http://www.kddcup2012.org/c/kddcup2012-track2 . In particular, the format of each line is:
+
 ``
 (Click)\t(Impression)\t(DisplayURL)\t(AdID)\t(AdvertiserID)\t(Depth)\t(Position)\t
 (QueryID)\t(KeywordID)\t(TitleID)\t(DescriptionID)\t(UserID)
 ``
+
 The data set is a log file of Tencent Ad system. Each line means that an user (UserID) is shown with
 an ad (AdID) at location (Postition)-(Depth) upon querying (QueryID); the ad is shown for (Impression)
 number of times, and clicked for (Click) number of times; the ad is of properties (DisplayURL), (AdvertiserID),
