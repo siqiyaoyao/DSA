@@ -1,4 +1,5 @@
-# Catalogue
+# INFO
+Data Structures and Algorithms (NTU, Spring 2015) instructor: Hsuan-Tien Lin, Roger Jang
 ## hw1 GCD of Big Integers
 Implement a (non-negative) BigInteger data structure to accompany with the two algorithms
 
